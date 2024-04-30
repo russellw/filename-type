@@ -2,6 +2,7 @@
 
 internal class Program {
 	static void Main(string[] args) {
-		Console.WriteLine("Hello, World!");
+		var filename = args[0];
+		Console.WriteLine(MimeUtility.GetMimeMapping(filename));
 	}
 }
