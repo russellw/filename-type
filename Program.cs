@@ -1,10 +1,7 @@
-﻿namespace filename_type
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
+﻿namespace filename_type {
+internal class Program {
+	static void Main(string[] args) {
+		Console.WriteLine("Hello, World!");
+	}
+}
 }
